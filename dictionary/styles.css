@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.dictionary {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.dictionary input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.dictionary input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background-color: #5f27cd;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dictionary input[type="submit"]:hover {
+  background-color: #341f97;
+}
+
+#infoDisplayerContainer {
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
